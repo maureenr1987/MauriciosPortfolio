@@ -1,15 +1,8 @@
 //Array of pictures
 var Pictures = [
-    "src/gallery/IMG_0001.jpg",
-    "src/gallery/IMG_0002.jpg",
-    "src/gallery/IMG_0003.jpg",
-    "src/gallery/IMG_0004.jpg",
-    "src/gallery/IMG_0005.jpg",
-    "src/gallery/IMG_0006.jpg",
-    "src/gallery/IMG_0007.jpg",
-    "src/gallery/IMG_0008.jpg",
-    "src/gallery/IMG_0009.jpg",
-    "src/gallery/IMG_0010.jpg"
+    "src/HomeGallery/Life1.jpg",
+    "src/HomeGallery/Life2.jpg",
+    "src/HomeGallery/Life3.jpg"
 ];
 
 //Index of current picture
@@ -20,7 +13,7 @@ var PicBuffer = "";
 
 //Format divs and pics
 for (i = 0; i < Pictures.length; i++) {
-    PicBuffer += "<img src='" + Pictures[i] + "' width='100%' alt='' id='picture_" + i + "'></img>"
+    PicBuffer += "<div class='col' id='picture_" + i + "'><img src='" + Pictures[i] + "' width='100%' alt=''></img></div>"
 }
 
 //Add new divs
