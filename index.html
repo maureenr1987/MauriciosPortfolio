@@ -1,0 +1,424 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="src/BionicZerbs.PNG">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <title>The Bionic Zebras 313</title>
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <div class="navBar" id="navbar">
+        <div class="container">
+            <a href="#title"><img src="src/logos/BionicZerbs.PNG" height="50px" alt="link"></a>
+            <a href="#home">Home</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#about">About</a>
+            <a href="#sponsors">Sponsors</a>
+            <a href="#announcements">Announcements</a>
+            <a href="#subteams">SubTeams</a>
+            <a href="#resources">Resoures</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+
+    <div class="container">
+
+        <!-- Title Start-->
+        <div id="title" class="card">
+            <h1>The Bionic Zebras 313</h1>
+        </div>
+        <!-- Title End -->
+
+        <!-- HOME START -->
+        <div id="home" class="card">
+            <h3>Welcome!</h3>
+            <p>
+                Welcome to the official website of FIRST Robotics Competition Team 313: The Bionic Zebras!<br>
+                <h5>What is FIRST?</h5>
+                FIRST (For Inspiration and Recognition of Science and Technology) is an organization
+                founded in 1989 to inspire young people's interest and participation in science and
+                technology. Not only do they learn about how robots function, they also learn important
+                skills that foster well-rounded life capabilities including self-confidence, communication,
+                and leadership.<br><br>
+                There are four programs in FIRST:<br>
+                1. Junior FIRST LEGO League (Jr.FLL) involving children from ages 6 to 9.<br>
+                2. FIRST LEGO League (FLL) involving children from ages 9 to 14.<br>
+                3. FIRST Tech Challenge (FTC) involving high-schoolers.<br>
+                4. FIRST Robotics Competition (FRC) involving high-schoolers.<br><br>
+
+                The Bionic Zebras, Team 313 is an FTC team.
+                Currently, we are celebrating our 20th anniversary. Older than most other FIRST teams. Also older than
+                the students on the team. Our team was founded in late 1998, and we first competed in 1999 which was
+                also the debut of team 313, the Bionic Zebras. In 2006, as a result of merging with another school in
+                our district, we became the “Bionic Union.” In 2013 we reverted to “Bionic Zebras” and it’s stayed that
+                way since. In spite of tremendous odds, our team keeps competing year after year. Most of our mentors
+                are alumni of the team, continuing to forge the Spirit of FIRST.
+
+            </p>
+        </div>
+        <!-- HOME END -->
+
+        <!-- PICTURE GALLERY START -->
+        <div class="card" id="gallery">
+            <h3>Gallery</h3>
+            <div class="row">
+                <div class="col-.5">
+                    <button onclick="PrevPic()">
+                        < </button> </div> <div class="col">
+                            <div id="picture_frame">
+                            </div>
+                </div>
+                <div class="col-.5">
+                    <button onclick="NextPic()"> > </button>
+                </div>
+            </div>
+        </div>
+        <!-- PICTURE GALLERY END -->
+
+        <!-- ABOUT START -->
+        <div id="about" class="card">
+            <h3>About</h3>
+            <p>
+                Founded by Mr. John Vuchovich and Mr. Scott Simons in 1998 (and now mentored by Joshua Barnett and
+                Karl Heinrich), The Bionic Zebras have been helping students explore the wonders of STEM (Science,
+                Technology, Engineering, and Mathematics), and encourages them to pursue their further studies and
+                career within a technological field.<br><br>
+
+                To put it in the words of Dean Kamen (a co-founder of FIRST Robotics), "To transform our culture by
+                creating a world where science and technology are celebrated and where young people dream of
+                becoming science and technology leaders."<br><br>
+
+                This team consists of six individual sub-teams, each having their own role in making every season a
+                success.
+        </div>
+        <!-- ABOUT END -->
+
+        <!-- SPONSORS START -->
+        <div id="sponsors" class="card">
+
+            <!-- Sponsors Grid-->
+            <h3>Sponsors</h3>
+            <div class="row" id="SponsorGrid"></div>
+
+            <!-- Benefits Table -->
+            <br><br>
+            <h3>Benefits/Merits</h3>
+            <div class="row">
+                <div class="col">
+                    <div class="card" id="benefits">
+                        <h5>Albert Einstein Level: $5,000 or above</h5>
+                        Logo on main page of our website<br>
+                        Logo featured in all Team facilities<br>
+                        Plant a tree in your name<br>
+                        Receive a plaque with a Team photo<br>
+                        Logo featured on all Team vehicles<br>
+                        Invitation to the Team's Annual Picnic<br>
+                        Team VIP Status<br>
+                        Opportunity to Drive Robot<br>
+                        Logo on Flag<br>
+                        Bumper Sticker<br>
+                        Logo on Pit Banner<br>
+                        Receive Team T-Shirt<br>
+                        Logo on T-Shirt<br>
+                        Logo on Robot<br>
+                        Logo featured in Business Plan
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" id="benefits">
+                        <h5>Isaac Newton Level: $2,500 - $4,999</h5>
+                        Receive a plaque with Team photo<br>
+                        Logo featured on all Team vehicles<br>
+                        Invitation to the Team's Annual Picnic<br>
+                        Team VIP Status<br>
+                        Opportunity to drive Robot<br>
+                        Logo on our Flag<br>
+                        Bumper Sticker<br>
+                        Logo on Pit Banner<br>
+                        Receive Team T-Shirt<br>
+                        Logo on T-Shirt<br>
+                        Logo on Robot<br>
+                        Logo featured in Business Plan
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" id="benefits">
+                        <h5>Nikola Tesla Level: $1,000 - $2,499</h5>
+                        Invitation to the Team's Annual Picnic<br>
+                        Team VIP Status<br>
+                        Opportunity to Drive Robot<br>
+                        Logo on Flag<br>
+                        Bumper Sticker<br>
+                        Logo on Pit Banner<br>
+                        Receive Team T-Shirt<br>
+                        Logo on T-Shirt<br>
+                        Logo on Robot<br>
+                        Logo featured in Business Plan
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" id="benefits">
+                        <h5>Benjamin Franklin Level: $500 - $999</h5>
+                        Opportunity to Drive Robot<br>
+                        Logo on our Flag<br>
+                        Bumper Sticker<br>
+                        Logo on Pit Banner<br>
+                        Receive Team T-Shirt<br>
+                        Logo on T-Shirt<br>
+                        Logo on Robot<br>
+                        Logo featured in Business Plan
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" id="benefits">
+                        <h5>Leonardo da Vinci Level: $250 - $499</h5>
+                        Bumper Sticker<br>
+                        Logo on Pit Banner<br>
+                        Receive Team T-Shirt<br>
+                        Logo on T-Shirt<br>
+                        Logo on Robot<br>
+                        Logo featured in Business Plan
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" id="benefits">
+                        <h5>Alexander Graham-Bell Level: $1 - $249</h5>
+                        Logo on T-Shirt<br>
+                        Logo on Robot<br>
+                        Logo featured in Business Plan
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- SPONSORS END -->
+
+        <!-- ANNOUNCEMENTS START -->
+        <div id="announcements" class="card">
+            <h3>Announcements</h3>
+            <div id="display_announcements">
+            </div>
+        </div>
+        <!-- ANNOUNCEMENTS END -->
+
+        <!-- SUBTEAMS START -->
+        <div id="subteams" class="card">
+            <h3>List of Subteams:</h3>
+            <p>
+                <h5>Build:</h5>
+                Build Team spends their time in the workshop learning about and using tools, putting together
+                electrical components and other technology specific to FIRST, and building automated systems based
+                on the design. All in all, this sub-team is responsible for every mechanical aspect of the robot.<br><br>
+
+                <h5>Design:</h5>
+                Design Team consists of a group of students who theorize and prototype their ideas for the robot.
+                This sub-team is responsible for presenting a final design (or multiple) to the team. CADD
+                (Computer-Aided-Drafting-and-Design) is a tool used extensively throughout the design and planning
+                process.<br><br>
+
+                <h5>Information Technology:</h5>
+                Information Technology not only programs and automates the entire robot, but works to maintain a
+                website as well. Students who reside with IT learn in-depth electronics, how to program in HTML and
+                CSS as well as C++, and how to use FIRST-Specific Programming Libraries. This sub-team works
+                closely with Design Team to ensure that the ideal control systems are constructed inside of the
+                program.<br><br>
+
+                <h5>Safety:</h5>
+                While we try to keep injuries to a minimum, accidents do happen. Safety Team is here to treat
+                injuries when they occur, and enforce safety procedures to prevent future accidents. Students on
+                this team learn how to treat wounds, and how to care for an injured person.<br><br>
+
+                <h5>Business:</h5>
+                Business Team manages the entire team's bank account, and is in charge of contacting other
+                businesses about acquiring sponsorship. Any time there is a need or want to spend team funds, it
+                goes through Business Team, who can in turn allow or deny it.<br><br>
+
+                <h5>Public Relations</h5>
+                Public Relations is in charge of making an image for our team and a positive relationship with our
+                community. This sub-team creates media content for the website, makes posters, and organizes
+                team-wide volunteering events in an effort to give back to the community.
+            </p>
+        </div>
+        <!-- SUBTEAMS END -->
+
+        <!-- RESOURCES START -->
+        <div id="resources" class="card">
+            <h3>Resources</h3>
+
+            <br>
+
+            <h5>General</h5>
+            <div class="row">
+                <div class="col">
+                    <div class="card">
+                        <a target="_blank" href="https://www.firstinspires.org/"> <img src="src/logos/FIRST.png" alt="link">
+                            <br>First Website </a> </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <a target="_blank" href="https://www.firstinmichigan.org/"> <img src="src/logos/FIRSTinMichigan.png"
+                                height="50px" alt="link"><br>FIRST in Michigan Website</a> </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <a target="_blank" href="https://www.chiefdelphi.com/forums/portal.php"> <img src="src/logos/Cheif_Delphi.png"
+                                height="50px" alt="link"><br>Cheif Delphi</a> </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <a target="_blank" href="https://www.thebluealliance.com/"> <img src="src/logos/BlueAllience.png"
+                                height="50px" alt="link"><br>The Blue Alliance</a> </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <a target="_blank" href="https://www.firstinspires.org/resource-library/frc/competition-manual-qa-system">
+                            <img src="src/logos/DeepSpace_logo.png" height="50px" alt="link"><br>Deep Space Rules</a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <a target="_blank" href="https://drive.google.com/file/d/10XpqMvFoYngBOtHRpIU_y72WZiRXqiA6/view?usp=sharing">
+                            <img src="src/logos/CheatSheet_logo.png" height="50px" alt="link"><br>Deep Space Cheat
+                            Sheet</a> </div>
+                </div>
+            </div>
+
+            <br><br>
+
+            <h5>Programming</h5>
+            <div class="row">
+                <div class="col">
+                    <div class="card">
+                        <a target="_blank" href="http://wpilib.screenstepslive.com/s/4485/m/13810">FRC-Made C++
+                            Guide</a>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card">
+                        <a target="_blank" href="http://wpilib.screenstepslive.com/s/4485/m/13809">FRC-Made Jave
+                            Guide</a>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card">
+                        <a target="_blank" href="http://www.firstinspires.org/node/4211">FMS</a>
+                    </div>
+                </div>
+            </div>
+
+            <br><br>
+
+            <h5>Mechanical/Electrical</h5>
+            <div class="row">
+                <div class="col">
+                    <div class="card">
+                        <a target="_blank" href="http://www.firstinspires.org/node/5026">FRC Mechanical Resources</a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <a target="_blank" href="https://wpilib.screenstepslive.com/s/currentCS/m/cs_hardware">ControlSystem
+                            Hardware</a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <a target="_blank" href="https://drive.google.com/file/d/1ApuGg_XOsbdT08vcMy0hT7g48XtL9fKt/view?usp=sharing">FRC
+                            Electronics Diagram</a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <a target="_blank" href="https://drive.google.com/file/d/1mHtO-4_Lvt_PSbHEWG5B9cVUsxXXkqtY/view?usp=sharing">FRC
+                            Radio Lights Diagram</a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <a target="_blank" href="https://drive.google.com/file/d/1WlHv_AXNIYoxlDMnV3vPIY_EZTLvAdBb/view?usp=sharing">Diagram
+                            of PoE</a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <a target="_blank" href="https://drive.google.com/file/d/1JSTB63ak1dfeIxe9nFC6G07IYdwOaFpU/view?usp=sharing">Talon
+                            SRX LED Blink Codes</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- RESOURCES END -->
+
+        <!-- CONTACT START -->
+        <div id="contact" class="card">
+            <h3>Contact Us:</h3>
+            The most efficient way to contact us is through our primary business email. An alternate contact is
+            our
+            Chief Executive of Information Technology and Design. For social media, check out our Twitter and
+            Facebook pages.<br><br>
+
+
+            Business Email: frcteam313@gmail.com<br><br>
+            Coach Phone Number(Donnie Castaldini ): (313)407-7711<br>
+            Lead Mentor Phone Number(Josh Barnett): (734)502-3871<br>
+            Alternate Lead Mentor Phone Number(Karl Heinrich): (734)629-6508<br><br>
+
+
+            <div class="row">
+                <div class="col-3">
+                    <div class="card">
+                        <a target="_blank" href=https://www.facebook.com/FRCTeam313> <img src="src/logos/Facebook_logo.png"
+                            alt="link">
+                        </a></div>
+                </div>
+                <div class="col-3">
+                    <div class="card">
+                        <a target="_blank" href=https://www.youtube.com/user/FRCTeam313> <img src="src/logos/Youtube_logo.png"
+                            alt="link">
+                        </a></div>
+                </div>
+                <div class="col-3">
+                    <div class="card">
+                        <a target="_blank" href=https://twitter.com/frcteam313> <img src="src/logos/Twitter_logo.png"
+                            alt="link">
+                        </a></div>
+                </div>
+                <div class="col-3">
+                    <div class="card">
+                        <a target="_blank" href="https://www.instagram.com/frcteam313/">
+                            <img src="src/logos/Instagram_logo.png" alt="link">
+                        </a></div>
+                </div>
+            </div>
+        </div>
+        <!-- CONTACT END -->
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/Announcements.js"></script>
+    <script src="js/Gallery.js"></script>
+    <script src="js/Sponsors.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Roboto";
+    background-color: #002e58;
+    margin: 0;
+    padding: 0px 0;
+    transition: 2000ms ease;
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-weight: bold;
+        color: #004688;
+    }
+}
+.card {
+    box-shadow: 0 3px 8px 2px rgba(0, 0, 0, 0.1);
+    padding: 14px 14px;
+    margin: 15px auto;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 3px 8px 3px rgba(0, 0, 0, 0.10);
+    .card {
+        background-color: #dfe3e6;
+        border: none;
+        margin: 10px auto;
+    }
+}
+
+#title {
+    margin-top: 140px;
+    padding-top: 20px;
+    background-color: #ffcb05;
+}
+
+#gallery {
+    button {
+        height: 100%;
+        width: 100%;
+        background-color: #004688;
+        color: #ffcb05;
+        font-weight: bolder;
+        border: none;
+        cursor: pointer;
+        transition: 200ms ease;
+        border-radius: 20px;
+    }
+    button:hover {
+        background-color: #ffcb05;
+        color: #004688;
+    }
+    img {
+        border-radius: 20px;
+    }
+}
+
+.navBar {
+    z-index: 1;
+    position: fixed;
+    display: block;
+    background-color: #ffcb05;
+    line-height: 60px;
+    width: 100%;
+    top: 0;
+    transition: top 0.3s;
+    box-shadow: 0 3px 8px 2px rgba(0, 0, 0, 0.15);
+    a {
+        float: left;
+        color: #4c6c97;
+        text-align: center;
+        text-decoration: none;
+        padding: 0 15px;
+        transition: 200ms ease;
+        &:hover {
+            background-color: #004688;
+            color: #ffcb05;
+        }
+    }
+}
+#display_announcements{
+    .card{
+        min-width: 300px;
+        height: 85%;
+    }
+}
+
+#sponsors {
+    #group {
+        padding: 0px;
+        margin: 0px;
+    }
+    #sponsor {
+        min-width: 100px;
+        max-width: 245px;
+        padding: 10px;
+        img {
+            height: 100%;
+            width: 100%;
+        }
+    }
+    #sponsorl {
+        min-width: 100px;
+        max-width: 245px;
+        padding: 10px;
+        img {
+            height: 100%;
+            width: 100%;
+        }
+        &:hover {
+            background-color: #ffcb05;
+        }
+    }
+    #benefits {
+        min-width: 300px;
+        height: 94%;
+    }
+}
+
+#resources {
+    .card {
+        min-width: 300px;
+        transition: 200ms ease;
+        &:hover {
+            background-color: #ffcb05;
+        }
+    }
+    img {
+        height: 100px;
+        width: 100px;
+    }
+    a {
+        text-align: center;
+        text-decoration: none;
+    }
+}
+
+#contact {
+    img {
+        height: 100%;
+        width: 100%;
+        margin: 0px;
+    }
+    .card {
+        padding: 10px;
+        &:hover {
+            background-color: #ffcb05;
+        }
+    }
+}
