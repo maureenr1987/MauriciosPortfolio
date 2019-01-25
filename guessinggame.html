@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="src/BionicZerbs.PNG">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Mauricios Portfolio</title>
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <div class="navBar" id="navbar">
+        <div class="container">
+            <a href="index.html">Home</a>
+            <a href="projects.html">Projects</a>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+
+    <div class="container">
+        <br><br><br>
+
+        <!-- PROJECTS START -->
+        <!-- Guessing Game -->
+        <div class="card">
+            <h2>Guessing Game 10/26/18</h2>
+            <h4>Guess a number 1 - 100</h4>
+            <p>The program generates 10 random numbers 1 - 100. If your guess is 5 away from any of the
+                random
+                numbers
+                then you get 1 point, but if your guess is equal to a random number then you get 2 points.
+                This project was an assignment for class. It was my first time using JavaScript in a
+                practical
+                way.
+                Everything before this was mostly exercises to introduce us to new JS concepts and
+                practice.
+            </p>
+        </div>
+
+        <div class="card">
+            <div class="row">
+
+                <div class="col">
+                    <h5>Guessing Game 1.1</h5>
+                    <a href="https://drive.google.com/file/d/1IMfadkZ_kFJr4j7j5A3046IONvuOkbAd/view?usp=sharing" target="_blank"
+                        id="btn">Download GuessingGame1.1.html</a>
+                    <div class="card">
+                        <b>Changes</b>
+                        Uses form input instead of window prompt to get user input<br>
+                        Only Credits the "most correct" answer<br>
+                        Uses multiple paragraphs
+                    </div>
+                </div>
+
+                <div class="col">
+                    <h5>Guessing Game 1.2</h5>
+                    <a href="https://drive.google.com/file/d/1fwlBgwZ_mk3TpEnHWS-9iSdEl0we0UQR/view?usp=sharing" target="_blank"
+                        id="btn">Download GuessingGame1.2.html</a>
+                    <div class="card">
+                        <b>Changes</b>
+                        Uses loops instead of Ctrl+V<br>
+                        Has only 1 p id<br>
+                        Credits all correct answers, not just the "most correct" answer<br>
+                        Will only take number input
+                    </div>
+                </div>
+
+                <div class="col">
+                    <h5>Guessing Game 1.3</h5>
+                    <a href="https://drive.google.com/file/d/12cMzGdP5zR9Hr-CZhKr1yT9meWLPMlag/view?usp=sharing" target="_blank"
+                        id="btn">Download GuessingGame1.3.html</a>
+                    <div class="card">
+                        <b>Changes</b>
+                        Gives too high/too low feedback<br>
+                        Steaks
+                    </div>
+                </div>
+            </div>
+            <div class="card" style="width:100%;">
+                Last Edited - 10/26/18<br>
+                Contributors - Mauricio
+            </div>
+        </div>
+
+        <div class="card" style="background-color: #272727; color:white;">
+            <div class="row">
+
+                <div class="col">
+                    <h5>What I learned from making this game</h5>
+                    How to make/use loops and not copy and paste the same line of code 900 times.<br>
+                    Format text output in JavaScript instead of make a new p id for everything.<br>
+                    Comment in JavaScript effectively so I don't forget what everything does.<br>
+                    Get user input with form input in HTML instead of a window prompt.<br>
+                    Functions and arrays
+                </div>
+
+                <div class="col">
+                    <h5>Languages Used</h5>
+                    HTML<br>
+                    JavaScript<br><br>
+
+                    <h5>Built With</h5>
+                    Visual Studio Code
+                </div>
+
+            </div>
+            <br>
+        </div>
+
+        <div class="card">
+            <h5>Background</h5>
+            <p>Guessing Game 1.0 was the first practical program I made in class. When I first made it, it had a window
+                prompt
+                to collect user input, but it turns out Google Sites doesn't like pop ups. So "Guessing Game 1.1" you
+                see above
+                is not the original. When I first made it, I didn't know how to use loops, so I literally copied the
+                same code
+                10 times. It turns out I had the most sophisticated program in the class because no one else could read
+                it,
+                including the teacher. The funny thing is, it didn't meet ONE of the assignment criteria, so I didn't
+                get full
+                credit. One of the requirements was "too high or too feedback", but that's literally impossible for my
+                game
+                since there if multiple answers, or so I thought. The hardest part of making this program was getting
+                the user
+                input from the form input box to a variable. Up until then I had never really touched HTML so it was
+                quite the
+                challenge.</p>
+        </div>
+
+        <div class="card">
+            <h5>How it works</h5>
+            <p>When you press the "Submit" button, a function called "GTN" runs.
+                First GTN generates 10 random numbers 1 - 100 and puts them into an array called "rNumb"
+                Then for each number in rNumb it calculates the difference between itself and whatever you might have
+                entered
+                into the input box and puts it into a new array called "minus".
+                Then if the smallest number is in rNumb is less than 5 your score goes up by one. But, if the smallest
+                number
+                is equal to 0 your score goes up by two. In other words, if one of the random numbers is within 5 of
+                your
+                guess, you get 2 points, and if if it's equal to your guess you get 2 points.
+                Update the text information.</p>
+        </div>
+        <div class="card">
+            <h5>Feedback</h5>
+            <p>When I first completed the assignment the program only generated 3 random numbers. Despite the margin of
+                error
+                of 5, it would still take around 8 attempts to get even 1 point, let alone getting 2 from getting the
+                complete
+                same number. So I increased the amount of random numbers to 5. Which at the time meant, copying an
+                pasting a
+                chunk of code 2 more times. Then I was told that the game was still to hard, so naturally I pasted the
+                same
+                chunk 5 more times. In the end you win about 1 in 3 attempts.</p>
+        </div>
+    </div>
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+    <!-- Scripts -->
+    <script src="js/Gallery.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

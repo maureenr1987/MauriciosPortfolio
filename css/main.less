@@ -5,10 +5,11 @@ html {
 
 body {
     font-family: "Roboto";
-    background-color: #2c2c38;
+    background-color: #d1d1d1;
     margin: 0;
     padding: 0px 0;
     transition: 2000ms ease;
+    color: #000000;
     h1,
     h2,
     h3,
@@ -16,13 +17,16 @@ body {
     h5,
     h6 {
         font-weight: bold;
-        color: white;
+        color: #6265ff;
     }
 }
-
+img {
+    margin: 0px;
+    border-radius: 5px;
+}
 #btn {
-    background-color: #ffffff;
-    color: #838383;
+    background-color: #6265ff;
+    color: #ffffff;
     float: left;
     text-align: center;
     text-decoration: none;
@@ -32,7 +36,7 @@ body {
     width: 100%;
     border-radius: 5px;
     &:hover {
-        background-color: #d8d7f5;
+        background-color: #383abd;
     }
 }
 
@@ -41,17 +45,23 @@ body {
         min-width: 300px;
     }
 }
+.cont{
+    background-color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 0;
+}
 
 .card {
     box-shadow: 0 3px 8px 2px rgba(0, 0, 0, 0.1);
     padding: 14px 14px;
     margin: 15px auto;
-    background-color: #232229;
-    color: white;
+    background-color: #f5f5f5;
+    color: #000;
     box-shadow: 0 3px 8px 3px rgba(0, 0, 0, 0.10);
     border-radius: 5px;
     .card {
-        background-color: #646085;
+        background-color: #d3d3d3;
         border: none;
         margin: 10px auto;
     }
@@ -61,7 +71,7 @@ body {
     z-index: 2;
     position: fixed;
     display: block;
-    background-color: rgb(19, 19, 19);
+    background-color: #131313;
     line-height: 70px;
     width: 100%;
     top: 0;
@@ -83,10 +93,6 @@ body {
 #gallery {
     padding-left: 0px;
     padding-right: 0px;
-    img {
-        margin: 0px;
-        border-radius: 5px;
-    }
     #next {
         right: 0;
     }
