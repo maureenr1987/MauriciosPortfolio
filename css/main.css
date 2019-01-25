@@ -28,6 +28,7 @@ body h6 {
   margin: 3px 0px;
   transition: 200ms ease;
   width: 100%;
+  border-radius: 5px;
 }
 #btn:hover {
   background-color: #d8d7f5;
@@ -42,6 +43,7 @@ body h6 {
   background-color: #232229;
   color: white;
   box-shadow: 0 3px 8px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
 }
 .card .card {
   background-color: #646085;
@@ -49,7 +51,7 @@ body h6 {
   margin: 10px auto;
 }
 .navBar {
-  z-index: 1;
+  z-index: 2;
   position: fixed;
   display: block;
   background-color: #131313;
@@ -70,16 +72,60 @@ body h6 {
 .navBar a:hover {
   background-color: #3e3e47;
 }
+#gallery {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+#gallery img {
+  margin: 0px;
+  border-radius: 5px;
+}
+#gallery #next {
+  right: 0;
+}
 #gallery button {
-  height: 100%;
-  width: 100%;
-  background-color: #ffffff;
-  color: #838383;
+  position: absolute;
+  z-index: 1;
+  top: 35%;
+  width: 30px;
+  height: 20%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ececec;
   font-weight: bolder;
   border: none;
   cursor: pointer;
   transition: 200ms ease;
 }
 #gallery button:hover {
-  background-color: #d8d7f5;
+  background-color: rgba(206, 206, 206, 0.5);
+  color: #1f1f1f;
+}
+#gallery #on {
+  position: absolute;
+  bottom: 0px;
+  left: 15px;
+  margin-bottom: 0;
+  color: white;
+}
+#gallery #dots {
+  position: absolute;
+  bottom: 5px;
+  width: 100%;
+  text-align: center;
+  line-height: 15px;
+  margin: 0;
+}
+#gallery .dot {
+  z-index: 1;
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 3px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+#gallery .dot:hover {
+  background-color: #717171;
 }
