@@ -20,10 +20,12 @@ body {
         color: #6265ff;
     }
 }
+
 img {
     margin: 0px;
     border-radius: 5px;
 }
+
 #btn {
     background-color: #6265ff;
     color: #ffffff;
@@ -45,12 +47,6 @@ img {
         min-width: 300px;
     }
 }
-.cont{
-    background-color: white;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    margin: 0;
-}
 
 .card {
     box-shadow: 0 3px 8px 2px rgba(0, 0, 0, 0.1);
@@ -70,13 +66,12 @@ img {
 .navBar {
     z-index: 2;
     position: fixed;
-    display: block;
     background-color: #131313;
-    line-height: 70px;
+    line-height: 60px;
     width: 100%;
     top: 0;
     transition: top 0.3s;
-    box-shadow: 0 3px 8px 2px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 3px 8px 2px rgba(0, 0, 0, 0.40);
     a {
         color: white;
         float: left;
@@ -86,6 +81,30 @@ img {
         transition: 200ms ease;
         &:hover {
             background-color: #3e3e47;
+        }
+    }
+    .dropdown {
+        display: inline-flex;
+        flex-direction: column; //z-index: 2;
+        .dropdown-menu {
+            a {
+                text-align: left;
+                width: 100%;
+            }
+            line-height: 40px;
+            background-color: #131313;
+            display: none;
+            padding: 0;
+            box-shadow: 0 3px 8px 2px rgba(0,
+            0,
+            0,
+            0.09);
+            margin-top: -2px;
+        }
+        &:hover {
+            .dropdown-menu {
+                display: block;
+            }
         }
     }
 }

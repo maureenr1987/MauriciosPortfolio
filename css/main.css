@@ -41,12 +41,6 @@ img {
 .row .col {
   min-width: 300px;
 }
-.cont {
-  background-color: white;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  margin: 0;
-}
 .card {
   box-shadow: 0 3px 8px 2px rgba(0, 0, 0, 0.1);
   padding: 14px 14px;
@@ -64,13 +58,12 @@ img {
 .navBar {
   z-index: 2;
   position: fixed;
-  display: block;
   background-color: #131313;
-  line-height: 70px;
+  line-height: 60px;
   width: 100%;
   top: 0;
   transition: top 0.3s;
-  box-shadow: 0 3px 8px 2px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 3px 8px 2px rgba(0, 0, 0, 0.4);
 }
 .navBar a {
   color: white;
@@ -82,6 +75,25 @@ img {
 }
 .navBar a:hover {
   background-color: #3e3e47;
+}
+.navBar .dropdown {
+  display: inline-flex;
+  flex-direction: column;
+}
+.navBar .dropdown .dropdown-menu {
+  line-height: 40px;
+  background-color: #131313;
+  display: none;
+  padding: 0;
+  box-shadow: 0 3px 8px 2px rgba(0, 0, 0, 0.09);
+  margin-top: -2px;
+}
+.navBar .dropdown .dropdown-menu a {
+  text-align: left;
+  width: 100%;
+}
+.navBar .dropdown:hover .dropdown-menu {
+  display: block;
 }
 #gallery {
   padding-left: 0px;
