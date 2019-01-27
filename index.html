@@ -17,30 +17,34 @@
     <!-- NAVBAR START -->
     <div class="navBar" id="navbar">
         <div class="container">
-            <a href="index.html">Home</a>
-            <div class="dropdown">
-                <a href="projects.html" class="dropdown-button">Projects</a>
-                <div class="dropdown-menu">
-                    <a href="guessinggame.html">Guessing Game</a>
-                    <a href="lifethegame.html">Life the Game</a>
-                    <a href="fishpods.html">Fishpod</a>
+            <div class="row">
+                <a href="index.html">Home</a>
+                <div class="dropdown">
+                    <a href="projects.html" class="dropdown-button">Projects</a>
+                    <div class="dropdown-menu">
+                        <a href="guessinggame.html">Guessing Game</a>
+                        <a href="lifethegame.html">Life the Game</a>
+                        <a href="fishpods.html">Fishpod</a>
+                    </div>
                 </div>
+                <a href="Programming.html">Programming</a>
+                <a href="toolset.html">Toolset</a>
+                <a href="https://docs.google.com/document/d/1lX8geWMh-CwvQhBc-6E1ZMYUpMOsf9wo31lz_2tmZRc/edit?usp=sharing" target="_blank">Resume</a>
             </div>
         </div>
     </div>
     <!-- NAVBAR END -->
 
     <div class="container">
-            <br><br><br>
-        
-        
+        <br><br><br>
+
+
         <!-- HOME START -->
         <div id="home" class="card">
             <h1>I'm Mauricio Ramirez</h1>
-            <p>
-                I am a 17 year old programmer.<br><br>
-
-                I am currently a senior in high school at Wayne Memorial.<br><br> I have been interested in programming
+            
+                <h4>I am a 17 year old programmer.</h4>
+                <p>I am currently a senior in high school at Wayne Memorial.</p><p> I have been interested in programming
                 since I was
                 10 however only got into it seriously until I was 15. I'm currently taking a class in high school about
                 programming which introduced me into HTML, CSS, JavaScript, and Python. I've also been into CGI since
@@ -54,14 +58,15 @@
 
         <!-- PICTURE GALLERY START -->
         <div id="gallery" class="col">
-            <button id="prev" onclick="PrevPic()"><</button> 
-            <div id="picture_frame"></div>
-            <div id="dots"></div>
-            <p id="on"></p>
-            <button id="next" onclick="NextPic()">></button>        
+            <button id="prev" onclick="PrevPic()">
+                <</button> <div id="picture_frame">
         </div>
-        <br>
-        <!-- PICTURE GALLERY END -->
+        <div id="dots"></div>
+        <p id="on"></p>
+        <button id="next" onclick="NextPic()">></button>
+    </div>
+    <br>
+    <!-- PICTURE GALLERY END -->
     </div>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

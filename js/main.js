@@ -4,9 +4,10 @@ $(".content-link").click(function () {
 });
 
 //Hide navbar 1.5 sec after click navbar button
+/*
 $("a").click(function () {
     setTimeout(function hidebar() {document.getElementById("navbar").style.top = "-110px";} , 1500)
-});
+});*/
 
 //Hide navbar on scroll down
 var prevScrollpos = window.pageYOffset;

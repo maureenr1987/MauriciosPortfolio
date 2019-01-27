@@ -1,8 +1,7 @@
 //Array of pictures
 var Pictures = [
     "src/screenshots/Life1.png",
-    "src/screenshots/Life2.png",
-    "src/screenshots/Life3.png"
+    "src/screenshots/fishpod2.png"
 ];
 
 //Index of current picture
