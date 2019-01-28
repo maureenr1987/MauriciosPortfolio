@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Oleo Script');
 @import url('https://fonts.googleapis.com/css?family=Exo 2');
 html {
     scroll-behavior: smooth;
@@ -10,7 +11,6 @@ body {
     background-color: #1b1a26;
     margin: 0;
     padding: 0px 0;
-    transition: 2000ms ease;
     color: #fff;
     h1,
     h2 {
@@ -36,6 +36,7 @@ img {
 #btn {
     background-color: #e61b70;
     color: #ffffff;
+    font-family: "Exo 2";
     float: left;
     text-align: center;
     text-decoration: none;
@@ -92,43 +93,52 @@ ul {
     z-index: 2;
     position: fixed;
     background-color: #11101a;
-    line-height: 60px;
     width: 100%;
-    top: 0;
     transition: top 0.3s;
-    box-shadow: 0 3px 8px 2px rgba(0, 0, 0, 0.40);
+    box-shadow: 0 3px 8px 2px rgba(228, 33, 169, 0.4);
+    line-height: 60px;
     a {
-        color: white;
-        float: left;
-        text-align: center;
         text-decoration: none;
-        padding: 0 10px;
-        transition: 200ms ease;
-        &:hover {
-            background-color: #e61b70;
+        display:inline-block;
+        margin: 0px;
+        h1 {
+            font-weight: 580;
+            margin: 5px 0px 0px 0px;
+            font-family: "Oleo Script";
+            color: white;
+            transition: 200ms ease;
+            &:hover {
+                color: #e61b70;
+            }
         }
     }
-    .dropdown {
-        display: inline-flex;
-        flex-direction: column; //z-index: 2;
-        .dropdown-menu {
-            a {
-                text-align: left;
+    .row {
+        margin: 0px 5px 0px 0px;
+        float: right;
+        a {
+            font-family: "Exo 2";
+            color: white;
+            text-decoration: none;
+            padding: 0 10px;
+            display: flex;
+            transition: 200ms ease;
+            &:hover {
+                background-color: #e61b70;
+            }
+        }
+        .dropdown {
+            .dropdown-menu {
+                line-height: 40px;
+                background-color: #11101a;
+                display: none;
+                padding: 0;
+                margin-top: -2px;
                 width: 100%;
             }
-            line-height: 40px;
-            background-color: #11101a;
-            display: none;
-            padding: 0;
-            box-shadow: 0 3px 8px 2px rgba(0,
-            0,
-            0,
-            0.09);
-            margin-top: -2px;
-        }
-        &:hover {
-            .dropdown-menu {
-                display: block;
+            &:hover {
+                .dropdown-menu {
+                    display: block;
+                }
             }
         }
     }
@@ -197,7 +207,7 @@ ul {
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 80px;
-    font-family: "Exo 2";
+    font-family: "Oleo Script";
     font-size: 600%;
     text-align: center;
     height: 100%;
