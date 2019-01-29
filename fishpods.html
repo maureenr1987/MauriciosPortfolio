@@ -16,30 +16,31 @@
 <body>
     <!-- NAVBAR START -->
     <div class="navBar" id="navbar">
-            <div class="container">
-                <a href="index.html"><h1>Mauricio Ramirez</h1></a>
-                <div class="row">
-    
-                    <a href="index.html">Home</a>
-                    <div class="dropdown">
-                        <a href="projects.html" class="dropdown-button">Projects</a>
-                        <div class="dropdown-menu">
-                            <a href="guessinggame.html">Guessing Game</a>
-                            <a href="lifethegame.html">Life the Game</a>
-                            <a href="fishpods.html">Fishpod</a>
-                        </div>
+        <div class="container">
+            <a href="index.html"><h1>Mauricio Ramirez</h1></a>
+            <div class="row">
+                <a href="index.html">Home</a>
+                <div class="dropdown">
+                    <a href="projects.html" class="dropdown-button">Projects</a>
+                    <div class="dropdown-menu">
+                        <a href="guessinggame.html">Guessing Game</a>
+                        <a href="lifethegame.html">Life the Game</a>
+                        <a href="turbospacerocks.html">Turbo Space Rocks</a>
+                        <a href="fishpods.html">Fishpod</a>
                     </div>
-                    <a href="Programming.html">Programming</a>
-                    <a href="toolset.html">Toolset</a>
-                    <a href="https://docs.google.com/document/d/1lX8geWMh-CwvQhBc-6E1ZMYUpMOsf9wo31lz_2tmZRc/edit?usp=sharing"
-                        target="_blank">Resume</a>
                 </div>
+                <a href="Programming.html">Programming</a>
+                <a href="toolset.html">Toolset</a>
+                <a href="https://docs.google.com/document/d/1lX8geWMh-CwvQhBc-6E1ZMYUpMOsf9wo31lz_2tmZRc/edit?usp=sharing"
+                    target="_blank">Resume</a>
             </div>
         </div>
-        <!-- NAVBAR END -->
+    </div>
+    <!-- NAVBAR END -->
 
     <div class="container">
-        <br><br><br>
+        <br><br><br><br>
+        
         <div class="parallax"> Fishpod</div>
         <div class="card">
             <h2>Fishpod 1/03/19</h2>
@@ -48,30 +49,25 @@
             </p>
         </div>
 
+        <!-- PICTURE GALLERY START -->
+        <div id="gallery" class="col">
+            <button id="prev" onclick="PrevPic()">
+                <</button> <div id="picture_frame">
+        </div>
+        <div id="dots"></div>
+        <p id="on"></p>
+        <button id="next" onclick="NextPic()">></button>
+        </div>
+        <br>
+        <!-- PICTURE GALLERY END -->
+
         <div class="card">
-
-            <div class="row">
-                <div class="col">
-                    <a href="https://drive.google.com/file/d/1Z7TR2oHDtjX8acS0c79PLKJiYM47ug8U/view?usp=sharing" target="_blank"
-                        id="btn">Download Game</a>
-                    <a href="https://drive.google.com/file/d/1qcciq6x2Ry32PcbVnsz-KWyvnxrnYujA/view?usp=sharing" target="_blank"
-                        id="btn">Download Project Files</a>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col">
-                    <img src="src\screenshots/fishpod1.png" width="100%" alt="">
-                </div>
-                <div class="col">
-                    <img src="src\screenshots/fishpod2.png" width="100%" alt="">
-                </div>
-                <div class="col">
-                    <img src="src\screenshots/fishpod3.png" width="100%" alt="">
-                </div>
-            </div>
+            <a href="https://drive.google.com/file/d/1Z7TR2oHDtjX8acS0c79PLKJiYM47ug8U/view?usp=sharing" target="_blank"
+                id="btn">Download Game</a>
+            <a href="https://drive.google.com/file/d/1qcciq6x2Ry32PcbVnsz-KWyvnxrnYujA/view?usp=sharing" target="_blank"
+                id="btn">Download Project Files</a>
             <div class="card" style="width:100%;">
-                Last Edited - 12/3/2018<br>
+                Last Edited - 1/03/2019<br>
                 Contributors - Mauricio R
             </div>
         </div>
@@ -80,9 +76,11 @@
             <div class="row">
                 <div class="col">
                     <h5>What I learned from making this game</h5>
-                    How to make state machines<br>
-                    How to skim through code and figure out how it works quickly<br>
-                    How to mod
+                    <ul>
+                    <li>How to make state machines</li>
+                    <li>How to skim through code and figure out how it works quickly</li>
+                    <li>How to mod</li>
+                    </ul>
                 </div>
                 <div class="col">
                     <h5>Languages Used</h5>
@@ -94,7 +92,6 @@
                 </div>
             </div>
         </div>
-
         <div class="card">
             <h5>Background</h5>
             <p>
@@ -109,13 +106,18 @@
             </p>
         </div>
         <div class="card">
-            <h5>Big Features</h5>
-            <p>
-                You can double jump by pressing up and regular jump by pressing space<br>
-                you can also go left and right
-            </p>
+            <h5>Controls</h5>
+            <ul>
+                    <li>
+                        <h6>LEFT / RIGHT arrows </h6> for horizantal movement
+                    </li>
+                    <li>
+                        <h6>UP arrow</h6> to jump really high
+                    <li>
+                        <h6>SPACE</h6> to jump
+                    </li>
+                </ul>
         </div>
-
         <div class="card">
             <h5>Big Features</h5>
             <ul>
@@ -135,8 +137,17 @@
                 </li>
             </ul>
         </div>
-
     </div>
+
+    <script>
+        var Pictures = [
+            "src/screenshots/FP1.png",
+            "src/screenshots/FP2.png",
+            "src/screenshots/FP3.png",
+            "src/screenshots/FP4.png",
+            "src/screenshots/FP5.png"
+        ];
+    </script>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

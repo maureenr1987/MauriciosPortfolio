@@ -1,9 +1,3 @@
-//Array of pictures
-var Pictures = [
-    "src/screenshots/Life1.png",
-    "src/screenshots/fishpod2.png"
-];
-
 //Index of current picture
 var CurrentPic = 0;
 
@@ -65,4 +59,4 @@ function RefreshPics () {
 RefreshPics();
 
 //Change pic every 4 secs
-setInterval(NextPic, 4000);
+setInterval(NextPic, 3000);

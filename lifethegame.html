@@ -16,30 +16,33 @@
 <body>
     <!-- NAVBAR START -->
     <div class="navBar" id="navbar">
-            <div class="container">
-                <a href="index.html"><h1>Mauricio Ramirez</h1></a>
-                <div class="row">
-    
-                    <a href="index.html">Home</a>
-                    <div class="dropdown">
-                        <a href="projects.html" class="dropdown-button">Projects</a>
-                        <div class="dropdown-menu">
-                            <a href="guessinggame.html">Guessing Game</a>
-                            <a href="lifethegame.html">Life the Game</a>
-                            <a href="fishpods.html">Fishpod</a>
-                        </div>
+        <div class="container">
+            <a href="index.html">
+                <h1>Mauricio Ramirez</h1>
+            </a>
+            <div class="row">
+                <a href="index.html">Home</a>
+                <div class="dropdown">
+                    <a href="projects.html" class="dropdown-button">Projects</a>
+                    <div class="dropdown-menu">
+                        <a href="guessinggame.html">Guessing Game</a>
+                        <a href="lifethegame.html">Life the Game</a>
+                        <a href="turbospacerocks.html">Turbo Space Rocks</a>
+                        <a href="fishpods.html">Fishpod</a>
                     </div>
-                    <a href="Programming.html">Programming</a>
-                    <a href="toolset.html">Toolset</a>
-                    <a href="https://docs.google.com/document/d/1lX8geWMh-CwvQhBc-6E1ZMYUpMOsf9wo31lz_2tmZRc/edit?usp=sharing"
-                        target="_blank">Resume</a>
                 </div>
+                <a href="Programming.html">Programming</a>
+                <a href="toolset.html">Toolset</a>
+                <a href="https://docs.google.com/document/d/1lX8geWMh-CwvQhBc-6E1ZMYUpMOsf9wo31lz_2tmZRc/edit?usp=sharing"
+                    target="_blank">Resume</a>
             </div>
         </div>
-        <!-- NAVBAR END -->
+    </div>
+    <!-- NAVBAR END -->
 
     <div class="container">
-        <br><br><br>
+        <br><br><br><br>
+
         <div class="parallax"> Life The Game </div>
         <div class="card">
             <h2>Life The Game 12/04/18</h2>
@@ -53,251 +56,256 @@
             </p>
         </div>
 
-        <div class="card">
-            <div class="row">
-                <div class="col">
-                    <a href="https://maureenr1987.github.io/Life-TheGame/" target="_blank" id="btn">Play Game</a>
-                    <a href="https://github.com/maureenr1987/Life-TheGame" target="_blank" id="btn">GitHub Repository</a>
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSeg3PmgEnPMfRwqkOFSKFvkXY3F_IL8aEqripLOw88zWm8_rQ/viewform"
-                        target="_blank" id="btn">Feedback Survey</a>
-                </div>
-            </div>
-
-            <div class="row">
-
-                <div class="col">
-
-                    <img src="src\screenshots\Life1.png" width="100%" alt="">
-                </div>
-                <div class="col">
-                    <img src="src\screenshots\Life2.png" width="100%" alt="">
-                </div>
-                <div class="col">
-
-                    <img src="src\screenshots\Life3.png" width="100%" alt="">
-                </div>
-            </div>
-            <div class="card" style="width:100%;">
-                Last Edited - 12/3/2018<br>
-                Contributors - Mauricio R, Jayson T, Jayden K, Creighton W, John DS, and Luis R.
-            </div>
+        <!-- PICTURE GALLERY START -->
+        <div id="gallery" class="col">
+            <button id="prev" onclick="PrevPic()">
+                <</button> <div id="picture_frame">
         </div>
-
-        <div class="card" style="background-color: #272727; color:white;">
-            <div class="row">
-
-                <div class="col">
-                    <h5>What I learned from making this game</h5>
-                    Work Cooperatively using GitHub.
-                    Use GitHub's free domains.<br>
-                    Create objects and classes in JavaScript.<br>
-                    Make good templates for other people to use.<br>
-                    How to comment in JavaScript effectively so that the other team members don't get lost.<br>
-                    Use Bootstrap 4 with JavaScript, HTML, and CSS to make visually pleasing websites.<br>
-                    How to collect useful feedback with google forms and use it to make improvements like balancing the
-                    game.<br>
-                    Debugging. Every time my team added a new feature, something had to go wrong. No exceptions. It was
-                    usually either Me or John's job to fix it.
-                </div>
-
-                <div class="col">
-                    <h5>Languages Used</h5>
-                    HTML<br>
-                    CSS<br>
-                    JavaScript<br><br>
-
-                    <h5>Built With</h5>
-                    Visual Studio Code<br>
-                    GitHub Desktop<br>
-                    Bootstrap v4.1.3
-                </div>
-
-            </div>
-            <br>
-        </div>
-
-        <div class="card">
-            <h5>Background</h5>
-            <p>
-                In my "Game Design and Programming" class at school our teacher gave us an assignment. To make a Mini
-                Text Adventure Game (MTAG). The original assignment requirements were... have a way to buy and sell
-                items, have 10 items, and can't buy items if there's not have enough money... I think. As the teacher
-                added more criteria, my team and I added more features.
-            </p>
-        </div>
-
-        <div class="card">
-            <h5>Concept</h5>
-            <p>
-                My teams original idea was, "to make a game were you play as a broke college student who's constantly
-                in debt." Suddenly, we had to add a way to win for v 2.0 of our MTAG. I realized the player had no goal
-                nor a way to win. Our old idea was most suitable for what most would call a sandbox. Somehow after
-                brainstorming for about 3 minutes, I ended up with , "a person who's trying to do the things on his/her
-                bucket list before the end of the world while in constant debt." It gave the player a goal, some
-                checkpoints along the way to the goal, and most importantly a way to win. Since no one in the team came
-                up with a better idea, it was given the OK.
-            </p>
-        </div>
-
-        <div class="card">
-            <h5>Controls</h5>
-            <p>
-                My team wanted to make the game as simple as possible. Before the class started working on the MTAG's
-                we were show last years MTAGs. The most common complain about them was probably "What do I do?" The UI
-                was usually very confusing, the goal was unclear, and the controls were inconsistent. So my team and I
-                decided to make our game so simple and straight forward. So straight forward, that we won't even have
-                to teach the player how to play and also not leave them confused. One of my team members Jayden K gave
-                the project a huge push by introducing Bootstrap, into the project and also making it look nice with
-                CSS. After that I slowly made small adjustments to make the game look and feel better. At the same time
-                I got much better at CSS and HTML which wasn't part of the curriculum of my specific class.
-            </p>
-        </div>
-
-        <div class="card">
-            <h5>Big Features</h5>
-            <ul>
-                <li>
-                    <h6>Stack-able Inventory 11/2/2018</h6>
-                    To meet the assignment requirements all I would have had to do was make a list of the items in the
-                    inventory array. However that also means that if a player decides to buy 20 of the same item, then
-                    inventory would display said item 20 times. The problem became even worst when we added the ability
-                    to shop in bulk. In other words the player can buy 50 hot pockets in one visit to the store. So I
-                    added item stacking. It uses 2 parallel arrays, one for an item index and another array for an
-                    items quantity. Was a pain and struggle to add, but was completely worth it. Because of some dumb
-                    error, this feature had problems with removing items until we were almost done with the game. It
-                    somehow worked again when we added a new line somewhere.
-                </li>
-                <li>
-                    <h6>Random Events 11/05/2018</h6>
-                    Each time the day changes, the player has a chance of suddenly having to pay bills, get jumped on
-                    the way home, or even pick pocked. Was added to make the player more susceptible to suddenly go
-                    into massive dept or other misfortunes. It made the game more spicy and unpredictable. It also gave
-                    some of team members who were confused a chance to contribute by adding their own events.
-                </li>
-                <li>
-                    <h6>Job System 11/09/2018</h6>
-                    The player can get a job to make money at the end of each week. However getting a job is not so
-                    simple. Each job has a different chance of accepting the player when they apply, with scientist
-                    being the lowest at a default of 3 percent. However the player can raise their chance of getting
-                    into the career they want by taking internships. Internships are risky. They take a week to raise a
-                    players employability 3 percent and only a for a specific job of the players choice. Also the
-                    player cannot currently have a job to go in an internship. So when you take internships the player
-                    loses time and money. Was another good opportunity to help out the other members something to do.
-                </li>
-                <li>
-                    <h6>Calendar 11/09/2018</h6>
-                    To be completely honest, this feature was completely unnecessary. However, simply having the date
-                    in the corner was too boring as well. So my team and I came to the somewhat logical conclusion of,
-                    "Make a calendar in JavaScript and HTML from scratch. " Which was a lot easier said than done.
-                    Obviously we searched online to try to find a preexisting calendar that we could embed into our
-                    project first, but most of them came with too many files that we didn't know what to do with. The
-                    biggest merit to the new calendar wasn't the calendar itself, but the fact that we literally had to
-                    completely rip out our old time system (which was complete cancer btw) and make a completely new
-                    one so that the calendar would even be possible. Unlike the old time system which would honestly
-                    break itself all the time, the new time system is excellent and it's has never given us any errors
-                    so far. It also paved the way for way better random events. If you want to test/use the new time
-                    system, you can find it at the bottom of the page.
-                </li>
-                <li>
-                    <h6>Battle System 11/16/2018</h6>
-                    It's basically a skimmed down version of the battle system from Pokemon. About 0.05 percent to be
-                    exact. My team and I just wanted to use a damage formula, so we used to one from Pokemon. Each
-                    character has a Level, Health, Attack, Defense, and Speed Stat. Also, each attack has a Name,
-                    Attack Power and Accuracy. Which are all used in the battle system. This was probably the one
-                    feature that gave me the most trouble. Only after completely rewriting half of it did started
-                    working without any problems.
-                </li>
-            </ul>
-        </div>
-
-        <div class="card">
-            <div class="row">
-                <div class="col">
-                    <h5>Store Ratings</h5>
-                    <img src="src/lifegraphs/graph1.png" width="100%" alt="">
-                    <p>
-                        The way players rated the shopping and selling slightly higher for version 2. The reason is
-                        probably because we slightly raised the prices of some of the items and lowered their
-                        effectiveness. Another reason is I got only got 7 survey responses for v2 and 23 responses for
-                        v3.
-                    </p>
-                </div>
-                <div class="col">
-                    <h5>Job Difficulty</h5>
-                    <img src="src/lifegraphs/graph2.png" width="100%" alt="">
-                    <p>
-                        More people said it was harder to get a job in version 3 which is certainly the case. I nerfed
-                        the the effectiveness of internships and made them take 1 week in v3 instead of 1 day in v3.
-                        Because of in error in my code the player was also susceptible to encountering multiple random
-                        events during their internships.
-                    </p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <h5>Internship Effectiveness</h5>
-                    <img src="src/lifegraphs/graph1.png" width="100%" alt="">
-                    <p>
-                        The survey shows that people thought internships were less effective in v3. Again, I nerfed the
-                        the effectiveness of internships and made them take 1 week in v3 instead of 1 day in v3. The
-                        reason is that people were getting the top tier scientist job in the first week which was not
-                        at all what was supposed to happen.
-                    </p>
-                </div>
-                <div class="col">
-                    <h5>Money at End of Game</h5>
-                    <img src="src/lifegraphs/graph2.png" width="100%" alt="">
-                    <p>
-                        The average player ended the game with a lot more money in v3 of the game. One reason could be
-                        that a lot more people actually took the survey. Another reason could be that more people
-                        played the game seriously, since v2 was still incomplete, and v3 was around 90% done.
-                    </p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <h5>Aesthetic</h5>
-                    <img src="src/lifegraphs/graph1.png" width="100%" alt="">
-                    <p>
-                        The games aesthetic was highly rated to begin with. The reason v3 was rated higher than v2 was
-                        because that’s when we added the battle system and major improvements main hud. Another reason
-                        is that I got more survey responses for v3 than v2.
-                    </p>
-                </div>
-                <div class="col">
-                    <h5>Stability</h5>
-                    <img src="src/lifegraphs/graph2.png" width="100%" alt="">
-                    <p>
-                        The game was very stable in v2 however because of a few rushed features in v3 I broke a couple
-                        things including the battle system. As a result we received less good ratings for v3. Sucks
-                        because I didn’t fix the problems until i got home.
-                    </p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <h5>Confusion</h5>
-                    <img src="src/lifegraphs/graph1.png" width="100%" alt="">
-                    <p>
-                        Less people thought the game was confusion for v3. It’s not that surprising since it’s the same
-                        group that played v2. And again there was more people doing the feedback survey.
-                    </p>
-                </div>
-                <div class="col">
-                    <h5>Replayability</h5>
-                    <img src="src/lifegraphs/graph2.png" width="100%" alt="">
-                    <p>
-                        More people they said they would willing to play the game again for v3. It’s not surprising
-                        since the battle system was added in that update. Also well as item functionality, and an
-                        ending.
-                    </p>
-                </div>
-            </div>
-        </div>
-
-
-
+        <div id="dots"></div>
+        <p id="on"></p>
+        <button id="next" onclick="NextPic()">></button>
     </div>
+    <br>
+    <!-- PICTURE GALLERY END -->
+
+    <div class="card">
+        <a href="https://maureenr1987.github.io/Life-TheGame/" target="_blank" id="btn">Play Game</a>
+        <a href="https://github.com/maureenr1987/Life-TheGame" target="_blank" id="btn">GitHub Repository</a>
+        <a href="https://docs.google.com/fms/d/e/1FAIpQLSeg3PmgEnPMfRwqkOFSKFvkXY3F_IL8aEqripLOw88zWm8_rQ/viewform"
+            target="_blank" id="btn">Feedback Survey</a>
+        <div class="card" style="width:100%;">
+            Last Edited - 12/3/2018<br>
+            Contributors - Mauricio R, Jayson T, Jayden K, Creighton W, John DS, and Luis R.
+        </div>
+    </div>
+
+    <div class="card" style="background-color: #272727; color:white;">
+        <div class="row">
+
+            <div class="col">
+                <h5>What I learned from making this game</h5>
+                <ul>
+                    <li>Work Cooperatively using GitHub.</li>
+                    <li>Use GitHub's free domains.</li>
+                    <li>Create objects and classes in JavaScript.</li>
+                    <li>Make good templates for other people to use.</li>
+                    <li>How to comment in JavaScript effectively so that the other team members don't get lost.
+                        Use Bootstrap 4 with JavaScript, HTML, and CSS to make visually pleasing websites.</li>
+                    <li>How to collect useful feedback with google forms and use it to make improvements like balancing
+                        the
+                        game.</li>
+                    <li>Debugging. Every time my team added a new feature, something had to go wrong. No exceptions. It
+                        was
+                        usually either Me or John's job to fix it.</li>
+                </ul>
+            </div>
+
+            <div class="col">
+                <h5>Languages Used</h5>
+                HTML<br>
+                CSS<br>
+                JavaScript<br><br>
+
+                <h5>Built With</h5>
+                Visual Studio Code<br>
+                GitHub Desktop<br>
+                Bootstrap v4.1.3
+            </div>
+
+        </div>
+        <br>
+    </div>
+
+    <div class="card">
+        <h5>Background</h5>
+        <p>
+            In my "Game Design and Programming" class at school our teacher gave us an assignment. To make a Mini
+            Text Adventure Game (MTAG). The original assignment requirements were... have a way to buy and sell
+            items, have 10 items, and can't buy items if there's not have enough money... I think. As the teacher
+            added more criteria, my team and I added more features.
+        </p>
+    </div>
+
+    <div class="card">
+        <h5>Concept</h5>
+        <p>
+            My teams original idea was, "to make a game were you play as a broke college student who's constantly
+            in debt." Suddenly, we had to add a way to win for v 2.0 of our MTAG. I realized the player had no goal
+            nor a way to win. Our old idea was most suitable for what most would call a sandbox. Somehow after
+            brainstorming for about 3 minutes, I ended up with , "a person who's trying to do the things on his/her
+            bucket list before the end of the world while in constant debt." It gave the player a goal, some
+            checkpoints along the way to the goal, and most importantly a way to win. Since no one in the team came
+            up with a better idea, it was given the OK.
+        </p>
+    </div>
+
+    <div class="card">
+        <h5>Controls</h5>
+        <p>
+            My team wanted to make the game as simple as possible. Before the class started working on the MTAG's
+            we were show last years MTAGs. The most common complain about them was probably "What do I do?" The UI
+            was usually very confusing, the goal was unclear, and the controls were inconsistent. So my team and I
+            decided to make our game so simple and straight forward. So straight forward, that we won't even have
+            to teach the player how to play and also not leave them confused. One of my team members Jayden K gave
+            the project a huge push by introducing Bootstrap, into the project and also making it look nice with
+            CSS. After that I slowly made small adjustments to make the game look and feel better. At the same time
+            I got much better at CSS and HTML which wasn't part of the curriculum of my specific class.
+        </p>
+    </div>
+
+    <div class="card">
+        <h5>Big Features</h5>
+        <ul>
+            <li>
+                <h6>Stack-able Inventory 11/2/2018</h6>
+                To meet the assignment requirements all I would have had to do was make a list of the items in the
+                inventory array. However that also means that if a player decides to buy 20 of the same item, then
+                inventory would display said item 20 times. The problem became even worst when we added the ability
+                to shop in bulk. In other words the player can buy 50 hot pockets in one visit to the store. So I
+                added item stacking. It uses 2 parallel arrays, one for an item index and another array for an
+                items quantity. Was a pain and struggle to add, but was completely worth it. Because of some dumb
+                error, this feature had problems with removing items until we were almost done with the game. It
+                somehow worked again when we added a new line somewhere.
+            </li>
+            <li>
+                <h6>Random Events 11/05/2018</h6>
+                Each time the day changes, the player has a chance of suddenly having to pay bills, get jumped on
+                the way home, or even pick pocked. Was added to make the player more susceptible to suddenly go
+                into massive dept or other misfortunes. It made the game more spicy and unpredictable. It also gave
+                some of team members who were confused a chance to contribute by adding their own events.
+            </li>
+            <li>
+                <h6>Job System 11/09/2018</h6>
+                The player can get a job to make money at the end of each week. However getting a job is not so
+                simple. Each job has a different chance of accepting the player when they apply, with scientist
+                being the lowest at a default of 3 percent. However the player can raise their chance of getting
+                into the career they want by taking internships. Internships are risky. They take a week to raise a
+                players employability 3 percent and only a for a specific job of the players choice. Also the
+                player cannot currently have a job to go in an internship. So when you take internships the player
+                loses time and money. Was another good opportunity to help out the other members something to do.
+            </li>
+            <li>
+                <h6>Calendar 11/09/2018</h6>
+                To be completely honest, this feature was completely unnecessary. However, simply having the date
+                in the corner was too boring as well. So my team and I came to the somewhat logical conclusion of,
+                "Make a calendar in JavaScript and HTML from scratch. " Which was a lot easier said than done.
+                Obviously we searched online to try to find a preexisting calendar that we could embed into our
+                project first, but most of them came with too many files that we didn't know what to do with. The
+                biggest merit to the new calendar wasn't the calendar itself, but the fact that we literally had to
+                completely rip out our old time system (which was complete cancer btw) and make a completely new
+                one so that the calendar would even be possible. Unlike the old time system which would honestly
+                break itself all the time, the new time system is excellent and it's has never given us any errors
+                so far. It also paved the way for way better random events.
+            </li>
+            <li>
+                <h6>Battle System 11/16/2018</h6>
+                It's basically a skimmed down version of the battle system from Pokemon. About 0.05 percent to be
+                exact. My team and I just wanted to use a damage formula, so we used to one from Pokemon. Each
+                character has a Level, Health, Attack, Defense, and Speed Stat. Also, each attack has a Name,
+                Attack Power and Accuracy. Which are all used in the battle system. This was probably the one
+                feature that gave me the most trouble. Only after completely rewriting half of it did started
+                working without any problems.
+            </li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <div class="row">
+            <div class="col">
+                <h5>Store Ratings</h5>
+                <img src="src/lifegraphs/graph1.png" width="100%" alt="">
+                <p>
+                    The way players rated the shopping and selling slightly higher for version 2. The reason is
+                    probably because we slightly raised the prices of some of the items and lowered their
+                    effectiveness. Another reason is I got only got 7 survey responses for v2 and 23 responses for
+                    v3.
+                </p>
+            </div>
+            <div class="col">
+                <h5>Job Difficulty</h5>
+                <img src="src/lifegraphs/graph2.png" width="100%" alt="">
+                <p>
+                    More people said it was harder to get a job in version 3 which is certainly the case. I nerfed
+                    the the effectiveness of internships and made them take 1 week in v3 instead of 1 day in v3.
+                    Because of in error in my code the player was also susceptible to encountering multiple random
+                    events during their internships.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h5>Internship Effectiveness</h5>
+                <img src="src/lifegraphs/graph1.png" width="100%" alt="">
+                <p>
+                    The survey shows that people thought internships were less effective in v3. Again, I nerfed the
+                    the effectiveness of internships and made them take 1 week in v3 instead of 1 day in v3. The
+                    reason is that people were getting the top tier scientist job in the first week which was not
+                    at all what was supposed to happen.
+                </p>
+            </div>
+            <div class="col">
+                <h5>Money at End of Game</h5>
+                <img src="src/lifegraphs/graph2.png" width="100%" alt="">
+                <p>
+                    The average player ended the game with a lot more money in v3 of the game. One reason could be
+                    that a lot more people actually took the survey. Another reason could be that more people
+                    played the game seriously, since v2 was still incomplete, and v3 was around 90% done.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h5>Aesthetic</h5>
+                <img src="src/lifegraphs/graph1.png" width="100%" alt="">
+                <p>
+                    The games aesthetic was highly rated to begin with. The reason v3 was rated higher than v2 was
+                    because that’s when we added the battle system and major improvements main hud. Another reason
+                    is that I got more survey responses for v3 than v2.
+                </p>
+            </div>
+            <div class="col">
+                <h5>Stability</h5>
+                <img src="src/lifegraphs/graph2.png" width="100%" alt="">
+                <p>
+                    The game was very stable in v2 however because of a few rushed features in v3 I broke a couple
+                    things including the battle system. As a result we received less good ratings for v3. Sucks
+                    because I didn’t fix the problems until i got home.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h5>Confusion</h5>
+                <img src="src/lifegraphs/graph1.png" width="100%" alt="">
+                <p>
+                    Less people thought the game was confusion for v3. It’s not that surprising since it’s the same
+                    group that played v2. And again there was more people doing the feedback survey.
+                </p>
+            </div>
+            <div class="col">
+                <h5>Replayability</h5>
+                <img src="src/lifegraphs/graph2.png" width="100%" alt="">
+                <p>
+                    More people they said they would willing to play the game again for v3. It’s not surprising
+                    since the battle system was added in that update. Also well as item functionality, and an
+                    ending.
+                </p>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- Gallary -->
+    <script>
+        var Pictures = [
+            "src/screenshots/Life1.png",
+            "src/screenshots/Life2.png",
+            "src/screenshots/Life3.png",
+            "src/screenshots/Life4.png",
+            "src/screenshots/Life5.png"
+        ];
+    </script>
+
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>

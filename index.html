@@ -19,13 +19,13 @@
         <div class="container">
             <a href="index.html"><h1>Mauricio Ramirez</h1></a>
             <div class="row">
-
                 <a href="index.html">Home</a>
                 <div class="dropdown">
                     <a href="projects.html" class="dropdown-button">Projects</a>
                     <div class="dropdown-menu">
                         <a href="guessinggame.html">Guessing Game</a>
                         <a href="lifethegame.html">Life the Game</a>
+                        <a href="turbospacerocks.html">Turbo Space Rocks</a>
                         <a href="fishpods.html">Fishpod</a>
                     </div>
                 </div>
@@ -39,8 +39,7 @@
     <!-- NAVBAR END -->
 
     <div class="container">
-        <br><br><br>
-
+        <br><br><br><br>
 
         <!-- HOME START -->
         <div id="home" class="card">
@@ -68,10 +67,18 @@
         <div id="dots"></div>
         <p id="on"></p>
         <button id="next" onclick="NextPic()">></button>
+        </div>
+        <br>
+        <!-- PICTURE GALLERY END -->
     </div>
-    <br>
-    <!-- PICTURE GALLERY END -->
-    </div>
+
+    <script>
+        var Pictures = [
+            "src/screenshots/Life1.png",
+            "src/screenshots/TSR1.png",
+            "src/screenshots/FP1.png"
+        ];
+    </script>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
