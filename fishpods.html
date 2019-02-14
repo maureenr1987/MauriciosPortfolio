@@ -17,7 +17,9 @@
     <!-- NAVBAR START -->
     <div class="navBar" id="navbar">
         <div class="container">
-            <a href="index.html"><h1>Mauricio Ramirez</h1></a>
+            <a href="index.html">
+                <h1>Mauricio Ramirez</h1>
+            </a>
             <div class="row">
                 <a href="index.html">Home</a>
                 <div class="dropdown">
@@ -40,12 +42,13 @@
 
     <div class="container">
         <br><br><br><br>
-        
-        <div class="parallax"> Fishpod</div>
+
+        <div class="parallax"> Fishpod + Modded FP</div>
 
         <!-- Overview Start -->
         <div class="card">
             <h2>Fishpod 1/03/19</h2>
+            <h2>Modded Fishpod 2/14/19</h2>
             <h4>The worst tutorial of my life</h4>
             I want to die
         </div>
@@ -65,6 +68,7 @@
 
         <!-- Download + Credits Start -->
         <div class="card">
+            <h5>Fishpod</h5>
             <a href="https://drive.google.com/file/d/1Z7TR2oHDtjX8acS0c79PLKJiYM47ug8U/view?usp=sharing" target="_blank"
                 id="btn">Download Game</a>
             <a href="https://drive.google.com/file/d/1qcciq6x2Ry32PcbVnsz-KWyvnxrnYujA/view?usp=sharing" target="_blank"
@@ -72,6 +76,22 @@
             <div class="card" style="width:100%;">
                 Last Edited - 1/03/2019<br>
                 Contributors - Mauricio R
+            </div>
+
+            <h5>Modded Fishpod v1</h5>
+            <a href="https://drive.google.com/file/d/1d5E-NWCk9oImso2R2l4Dd3xGsT73b7Bi/view?usp=sharing" target="_blank"
+                id="btn">Download Game</a>
+            <a href="https://drive.google.com/file/d/1txXCfxIZvCGJUE2NVuWSHiwLlY2XxkW7/view?usp=sharing" target="_blank"
+                id="btn">Download Project Files</a>
+                
+            <h5>Modded Fishpod v2</h5>
+            <a href="https://drive.google.com/file/d/1xYCsin1jLTXyOPLItkePoXdwJFZpxBnd/view?usp=sharing" target="_blank"
+                id="btn">Download Game</a>
+            <a href="https://drive.google.com/file/d/1mThkrixsi4E9mIj7AUMQVV8ePvF9hz0X/view?usp=sharing" target="_blank"
+                id="btn">Download Project Files</a>
+            <div class="card" style="width:100%;">
+                Last Edited - 1/03/2019<br>
+                Contributors - Mauricio R, Nancy N, Jayson T, Jayden K, John D,
             </div>
         </div>
         <!-- Download + Credits End -->
@@ -82,9 +102,9 @@
                 <div class="col">
                     <h5>What I learned from making this game</h5>
                     <ul>
-                    <li>How to make state machines</li>
-                    <li>How to skim through code and figure out how it works quickly</li>
-                    <li>How to mod</li>
+                        <li>How to make state machines</li>
+                        <li>How to skim through code and figure out how it works quickly</li>
+                        <li>How to mod</li>
                     </ul>
                 </div>
                 <div class="col">
@@ -102,31 +122,51 @@
         <!-- Background Start -->
         <div class="card">
             <h5>Background</h5>
-                So basically our teacher made us follow a game maker tutorial that used drag and drop instead of game
-                maker language which is basically gave all of the students tumors.
+            So basically our teacher made us follow a game maker tutorial that used drag and drop instead of game
+            maker language which is basically gave all of the students tumors. Then he made us mod the games to fit
+            a target audience. The target audience for our game was 14 year old girl.
         </div>
         <!-- Background End -->
 
         <!-- Objective Start -->
         <div class="card">
             <h5>Objective</h5>
-                The goal of the game is to get all the gold or whatever the collectible of the level is in the level.
+            The goal of the game is to get all the gold or whatever the collectible of the level is in the level.
         </div>
         <!-- Objective End -->
 
-         <!-- Controls Start -->
+        <!-- Controls Start -->
         <div class="card">
-            <h5>Controls</h5>
-            <ul>
-                    <li>
-                        <h6>LEFT / RIGHT arrows </h6> for horizantal movement
-                    </li>
-                    <li>
-                        <h6>UP arrow</h6> to jump really high
-                    <li>
-                        <h6>SPACE</h6> to jump
-                    </li>
-                </ul>
+            <div class="row">
+                <div class="col">
+                    <h5>Controls (Fishpod)</h5>
+                    <ul>
+                        <li>
+                            <h6>LEFT / RIGHT arrows </h6> for horizantal movement
+                        </li>
+                        <li>
+                            <h6>UP arrow</h6> to jump really high
+                        </li>
+                        <li>
+                            <h6>SPACE</h6> to jump
+                        </li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h5>Controls (Fishpod Modded)</h5>
+                    <ul>
+                        <li>
+                            <h6>LEFT / RIGHT arrows </h6> for horizantal movement
+                        </li>
+                        <li>
+                            <h6>SPACE</h6> to jump
+                        </li>
+                        <li>
+                            <h6>R</h6> to restart
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
         <!-- Controls End -->
 
@@ -141,11 +181,12 @@
                 </li>
                 <li>
                     <h6>Epic Sprite Art</h6>
-                    There's a whole ass sprite for going to the left when you could have just fliped the ones going to the right using 'image_xscale'.
+                    There's a whole ass sprite for going to the left when you could have just fliped the ones going to
+                    the right using 'image_xscale'.
                 </li>
                 <li>
                     <h6>Double Jump</h6>
-                    Yes
+                    Yes... but not in modded.
                 </li>
             </ul>
         </div>
@@ -159,7 +200,11 @@
             "src/screenshots/FP2.png",
             "src/screenshots/FP3.png",
             "src/screenshots/FP4.png",
-            "src/screenshots/FP5.png"
+            "src/screenshots/FP5.png",
+            "src/screenshots/MFP1.png",
+            "src/screenshots/MFP2.png",
+            "src/screenshots/MFP3.png",
+            "src/screenshots/MFP4.png"
         ];
     </script>
 
