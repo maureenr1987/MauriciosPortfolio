@@ -17,7 +17,9 @@
     <!-- NAVBAR START -->
     <div class="navBar" id="navbar">
         <div class="container">
-            <a href="index.html"><h1>Mauricio Ramirez</h1></a>
+            <a href="index.html">
+                <h1>Mauricio Ramirez</h1>
+            </a>
             <div class="row">
                 <a href="index.html">Home</a>
                 <div class="dropdown">
@@ -60,15 +62,36 @@
         <!-- Bio End -->
 
         <!-- PICTURE GALLERY START -->
-        <div id="gallery" class="col">
-            <button id="prev" onclick="PrevPic()">
-                <</button> <div id="picture_frame">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <a href="lifethegame.html"> <img class="d-block w-100" src="src/screenshots/Life1.png" alt="First slide"></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="turbospacerocks.html"><img class="d-block w-100" src="src/screenshots/TSR1.png" alt="Second slide"></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="fishpods.html"><img class="d-block w-100" src="src/screenshots/FP1.png" alt="Third slide"></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="fishpods.html"><img class="d-block w-100" src="src/screenshots/MFP1.png" alt="Fourth slide"></a>
+                </div>
             </div>
-            <div id="dots"></div>
-            <p id="on"></p>
-            <button id="next" onclick="NextPic()">></button>
-            </div>
-            <br>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
         <!-- PICTURE GALLERY END -->
     </div>
 
@@ -90,7 +113,6 @@
         crossorigin="anonymous"></script>
 
     <!-- Scripts -->
-    <script src="js/Gallery.js"></script>
     <script src="js/main.js"></script>
 </body>
 

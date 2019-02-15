@@ -20,3 +20,7 @@ window.onscroll = function () {
     }
     prevScrollpos = currentScrollPos;
 }
+
+$('.carousel').carousel({
+    interval: 2000
+  })
