@@ -144,46 +144,47 @@ ul li h6 {
 ul {
   padding-left: 20px;
 }
-#Progress {
-  width: 100%;
-  background-color: grey;
-}
-#Progress #HTML_Bar {
-  width: 85%;
-  height: 30px;
-  background-color: #e61b70;
-  padding: 5px;
-}
-#Progress #JS_Bar {
-  width: 80%;
-  height: 30px;
-  background-color: #e61b70;
-  padding: 5px;
-}
-#Progress #CSS_Bar {
-  width: 70%;
-  height: 30px;
-  background-color: #e61b70;
-  padding: 5px;
-}
-#Progress #LESS_Bar {
-  width: 85%;
-  height: 30px;
-  background-color: #e61b70;
-  padding: 5px;
-}
-#Progress #GML_Bar {
-  width: 90%;
-  height: 30px;
-  background-color: #e61b70;
-  padding: 5px;
-}
-#Progress #UE4_Bar {
-  width: 75%;
-  height: 30px;
-  background-color: #e61b70;
-  padding: 5px;
-}
+/*#Progress {
+    width: 100%;
+    background-color: grey;
+    
+    #HTML_Bar {
+        width: 85%;
+        height: 30px;
+        background-color: #e61b70;
+        padding: 5px;
+    }
+    #JS_Bar {
+        width: 80%;
+        height: 30px;
+        background-color: #e61b70;
+        padding: 5px;
+    }
+    #CSS_Bar {
+        width: 70%;
+        height: 30px;
+        background-color: #e61b70;
+        padding: 5px;
+    }
+    #LESS_Bar {
+        width: 85%;
+        height: 30px;
+        background-color: #e61b70;
+        padding: 5px;
+    }
+    #GML_Bar {
+        width: 90%;
+        height: 30px;
+        background-color: #e61b70;
+        padding: 5px;
+    }
+    #UE4_Bar {
+        width: 75%;
+        height: 30px;
+        background-color: #e61b70;
+        padding: 5px;
+    }
+}*/
 #footer {
   margin-bottom: -100px;
   border-radius: 0px;
